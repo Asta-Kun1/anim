@@ -1,459 +1,211 @@
 return {
     -- === BLOX FRUITS ===
-    -- Kitsune
-    ["rbxassetid://15546070722"] = "kitsune_z_charge",
-    ["rbxassetid://15546072013"] = "kitsune_z_knockback",
-    ["rbxassetid://15546066282"] = "kitsune_x_charge",
-    ["rbxassetid://15545827546"] = "kitsune_c_charge",
-    ["rbxassetid://15512668904"] = "charkitsune_z_fire",
-    ["rbxassetid://15512597452"] = "charkitsune_x_fire",
-    ["rbxassetid://15512600235"] = "charkitsune_c_fire",
-    ["rbxassetid://15545829507"] = "kitsune_f_charge",
-    ["rbxassetid://15545831559"] = "kitsune_f_dash",
-    ["rbxassetid://15512608734"] = "charkitsune_f_charge",
-    ["rbxassetid://15512610145"] = "charkitsune_f_leap",
-    ["rbxassetid://15512611290"] = "charkitsune_f_slash",
+    -- Kitsune (Empyrean Skin)
+    ["rbxassetid://15546070722"] = "kitsune_z_charge", ["rbxassetid://15546072013"] = "kitsune_z_knockback", ["rbxassetid://15546066282"] = "kitsune_x_charge", ["rbxassetid://15545827546"] = "kitsune_c_charge", ["rbxassetid://15512668904"] = "charkitsune_z_fire", ["rbxassetid://15512597452"] = "charkitsune_x_fire", ["rbxassetid://15512600235"] = "charkitsune_c_fire", ["rbxassetid://15545829507"] = "kitsune_f_charge", ["rbxassetid://15545831559"] = "kitsune_f_dash", ["rbxassetid://15512608734"] = "charkitsune_f_charge", ["rbxassetid://15512610145"] = "charkitsune_f_leap", ["rbxassetid://15512611290"] = "charkitsune_f_slash", ["rbxassetid://105502025176188"] = "charredkitsune_z_loop", ["rbxassetid://112552193356845"] = "empyrean_c_fire", ["rbxassetid://126461728671981"] = "empyrean_c_charge",
+    
+    -- Lightning (Formerly Rumble - Green/Blue Skins)
+    ["rbxassetid://73340328188029"] = "lightning_m1windup", ["rbxassetid://101154631252721"] = "lightning_m1loop", ["rbxassetid://103444241387304"] = "lightning_xfire", ["rbxassetid://84500115208678"] = "lightning_xhold", ["rbxassetid://111664153381223"] = "lightning_cwindup", ["rbxassetid://129998506211906"] = "lightning_r15_cwindup", ["rbxassetid://80586566247688"] = "lightning_claunch", ["rbxassetid://119874326706859"] = "lightning_r15_claunch", ["rbxassetid://129225777931852"] = "lightning_csuccess", ["rbxassetid://119543657409671"] = "lightning_r15_csuccess", ["rbxassetid://121219055046105"] = "lightning_chold", ["rbxassetid://134766514663187"] = "lightning_r15_chold", ["rbxassetid://80384227402468"] = "lightning_zfire", ["rbxassetid://123158414288604"] = "lightning_zhold", ["rbxassetid://119258933500509"] = "lightning_zdragonbite", ["rbxassetid://74158916290794"] = "lightning_zdragonloop", ["rbxassetid://92825861340743"] = "lightning_vfire", ["rbxassetid://127754160200650"] = "lightning_vhold",
     
     -- Portal
-    ["rbxassetid://11542374730"] = "zportaldashpose",
-    ["rbxassetid://11839435734"] = "portalflip",
+    ["rbxassetid://11542374730"] = "zportaldashpose", ["rbxassetid://11839435734"] = "portalflip",
     
     -- Dough
-    ["rbxassetid://10592880188"] = "dough_v_start",
-    ["rbxassetid://10592881804"] = "dough_v_loop",
-    ["rbxassetid://10706004707"] = "dough_punch_start_r",
-    ["rbxassetid://10706011242"] = "dough_punch_extend_r",
-    ["rbxassetid://10712081675"] = "dough_tap_start_r",
-    ["rbxassetid://10712558343"] = "dough_fire",
-    ["rbxassetid://14079470792"] = "mochi_pierce_charge",
-    ["rbxassetid://14079474280"] = "mochi_pierce_dash",
-    ["rbxassetid://14079475671"] = "mochi_throw",
-    ["rbxassetid://14079477361"] = "mochi_throw_charge",
-    ["rbxassetid://14079478264"] = "mochi_pierce_loop",
+    ["rbxassetid://10592880188"] = "dough_v_start", ["rbxassetid://10592881804"] = "dough_v_loop", ["rbxassetid://10706004707"] = "dough_punch_start_r", ["rbxassetid://10706011242"] = "dough_punch_extend_r", ["rbxassetid://10712081675"] = "dough_tap_start_r", ["rbxassetid://10712558343"] = "dough_fire", ["rbxassetid://14079470792"] = "mochi_pierce_charge", ["rbxassetid://14079474280"] = "mochi_pierce_dash", ["rbxassetid://14079475671"] = "mochi_throw", ["rbxassetid://14079477361"] = "mochi_throw_charge", ["rbxassetid://14079478264"] = "mochi_pierce_loop",
     
-    -- Leopard
-    ["rbxassetid://10312025343"] = "leopard_x_kick_hold",
-    ["rbxassetid://10312027177"] = "leopard_x_kick",
-    ["rbxassetid://10312061113"] = "leopard_z_final_punch",
-    ["rbxassetid://10312063437"] = "leopard_z",
-    ["rbxassetid://10312077995"] = "leopard_c_dive",
-    ["rbxassetid://10312079389"] = "leopard_c_dash",
-    ["rbxassetid://10068670259"] = "leopard_dash_transformed",
-    ["rbxassetid://2931837076"] = "leopard_charge",
+    -- Tiger (Formerly Leopard)
+    ["rbxassetid://10312063437"] = "tiger_base_z", ["rbxassetid://10312027177"] = "tiger_base_x", ["rbxassetid://10312079389"] = "tiger_base_c",["rbxassetid://118911296874650"] = "tiger_m1_1", ["rbxassetid://139071042378135"] = "tiger_m1_2", ["rbxassetid://119072421589354"] = "tiger_m1_3", ["rbxassetid://78523331136291"] = "tiger_m1_4", ["rbxassetid://94006198119776"] = "tiger_awakening", ["rbxassetid://120948155674370"] = "tiger_awakened_z_launch", ["rbxassetid://90948121692026"] = "tiger_awakened_z_hold", ["rbxassetid://137035858823411"] = "tiger_awakened_x_fire", ["rbxassetid://88225934156541"] = "tiger_awakened_x_hold", ["rbxassetid://139341118100716"] = "tiger_awakened_x_head_loop", ["rbxassetid://124724728364228"] = "tiger_awakened_x_head_end", ["rbxassetid://103922282201875"] = "tiger_awakened_c_slam", ["rbxassetid://124452042618012"] = "tiger_awakened_c_hold", ["rbxassetid://81266695160678"] = "tiger_awakened_c_release", ["rbxassetid://134393976878829"] = "tiger_awakened_c_cutscene_hold", ["rbxassetid://111627547690834"] = "tiger_awakened_f_sprint", ["rbxassetid://111240431405757"] = "tiger_awakened_f_success", ["rbxassetid://128031695592350"] = "tiger_awakened_f_hit", ["rbxassetid://95633780504600"] = "tiger_ultimate", ["rbxassetid://98078161337875"] = "tiger_ultimate_victim", ["rbxassetid://140124634948034"] = "tiger_transformed_z_loop", ["rbxassetid://91221024256434"] = "tiger_transformed_z_end", ["rbxassetid://128217207998943"] = "tiger_transformed_x_air_release", ["rbxassetid://134157067791474"] = "tiger_transformed_x_ground_hold", ["rbxassetid://127177221578904"] = "tiger_transformed_c_hold", ["rbxassetid://117965611298024"] = "tiger_transformed_f_success", ["rbxassetid://71301116186161"] = "tiger_transformed_f_release", ["rbxassetid://93382264645152"] = "tiger_transformed_f_hold",
     
     -- Dragon
-    ["rbxassetid://4403107485"] = "dragon_breath",
-    ["rbxassetid://4403290261"] = "dragon_king",
-    ["rbxassetid://6121210192"] = "dragon_z",
-    ["rbxassetid://6124973630"] = "dragon_c",
-    ["rbxassetid://6125274582"] = "dragon_x_attempt",
-    ["rbxassetid://6125274866"] = "dragon_x_success",
-    ["rbxassetid://15642378746"] = "dragon2_z_charge",
-    ["rbxassetid://15642382945"] = "dragon2_z_fire",
-    ["rbxassetid://15642400359"] = "dragon2_x_charge",
-    ["rbxassetid://15642401852"] = "dragon2_x_floor_drag",
-    ["rbxassetid://15642403907"] = "dragon2_x_jump_throw",
+    ["rbxassetid://4403107485"] = "dragon_breath", ["rbxassetid://4403290261"] = "dragon_king", ["rbxassetid://6121210192"] = "dragon_z", ["rbxassetid://6124973630"] = "dragon_c", ["rbxassetid://6125274582"] = "dragon_x_attempt", ["rbxassetid://6125274866"] = "dragon_x_success", ["rbxassetid://15642378746"] = "dragon2_z_charge", ["rbxassetid://15642382945"] = "dragon2_z_fire", ["rbxassetid://15642400359"] = "dragon2_x_charge", ["rbxassetid://15642401852"] = "dragon2_x_floor_drag", ["rbxassetid://15642403907"] = "dragon2_x_jump_throw",
     
     -- Gas
-    ["rbxassetid://18157874234"] = "gas_v",
-    ["rbxassetid://18157877507"] = "gas_x_charge",
-    ["rbxassetid://18157883461"] = "gas_x",
-    ["rbxassetid://18157901657"] = "gas_f_loop",
-    ["rbxassetid://18157910972"] = "gas_c_start",
-    ["rbxassetid://18157917479"] = "gas_c_fire",
-    ["rbxassetid://18157921181"] = "gas_z_charge",
-    ["rbxassetid://18157924181"] = "gas_z_dash",
-    ["rbxassetid://18157928435"] = "gas_z_stab",
-    ["rbxassetid://101248866074702"] = "gas_full_form_c",
-    ["rbxassetid://102585655445311"] = "gas_full_form_z",
+    ["rbxassetid://18157874234"] = "gas_v", ["rbxassetid://18157877507"] = "gas_x_charge", ["rbxassetid://18157883461"] = "gas_x", ["rbxassetid://18157901657"] = "gas_f_loop", ["rbxassetid://18157910972"] = "gas_c_start", ["rbxassetid://18157917479"] = "gas_c_fire", ["rbxassetid://18157921181"] = "gas_z_charge", ["rbxassetid://18157924181"] = "gas_z_dash", ["rbxassetid://18157928435"] = "gas_z_stab", ["rbxassetid://101248866074702"] = "gas_full_form_c", ["rbxassetid://102585655445311"] = "gas_full_form_z",
     
     -- Venom
-    ["rbxassetid://6907144163"] = "venom_z",
-    ["rbxassetid://6907144604"] = "venom_x",
-    ["rbxassetid://6907145274"] = "venom_c",
-    ["rbxassetid://6907145754"] = "venom_f",
-    ["rbxassetid://6907308017"] = "venom_x_release",
-    ["rbxassetid://6907354976"] = "venom_f_release",
-    ["rbxassetid://119789940874696"] = "venom_bow_z",
-    ["rbxassetid://80438465362993"] = "venom_bow_x",
+    ["rbxassetid://6907144163"] = "venom_z", ["rbxassetid://6907144604"] = "venom_x", ["rbxassetid://6907145274"] = "venom_c", ["rbxassetid://6907145754"] = "venom_f", ["rbxassetid://6907308017"] = "venom_x_release", ["rbxassetid://6907354976"] = "venom_f_release", ["rbxassetid://119789940874696"] = "venom_bow_z", ["rbxassetid://80438465362993"] = "venom_bow_x",
     
     -- Spirit
-    ["rbxassetid://3304940294"] = "soul_shoot",
-    ["rbxassetid://3305041045"] = "soul_shoot_hold",
-    ["rbxassetid://8409336020"] = "soul_x",
-    ["rbxassetid://8409336722"] = "soul_z",
-    ["rbxassetid://8409335226"] = "soul_v",
-    ["rbxassetid://8409334308"] = "soul_f",
-    ["rbxassetid://8409333336"] = "soul_c",
+    ["rbxassetid://3304940294"] = "soul_shoot", ["rbxassetid://3305041045"] = "soul_shoot_hold", ["rbxassetid://8409336020"] = "soul_x", ["rbxassetid://8409336722"] = "soul_z", ["rbxassetid://8409335226"] = "soul_v", ["rbxassetid://8409334308"] = "soul_f", ["rbxassetid://8409333336"] = "soul_c",
     
     -- Buddha
-    ["rbxassetid://2912730404"] = "buddha_tackle",
-    ["rbxassetid://6939164420"] = "buddha_z_transform",
-    ["rbxassetid://6952529693"] = "buddha_x_impact",
-    ["rbxassetid://6952577138"] = "buddha_c_beam",
-    ["rbxassetid://6952648406"] = "buddha_f_grab",
-    ["rbxassetid://6960614095"] = "buddha_v_levitate",
+    ["rbxassetid://2912730404"] = "buddha_tackle", ["rbxassetid://6939164420"] = "buddha_z_transform", ["rbxassetid://6952529693"] = "buddha_x_impact", ["rbxassetid://6952577138"] = "buddha_c_beam", ["rbxassetid://6952648406"] = "buddha_f_grab", ["rbxassetid://6960614095"] = "buddha_v_levitate",
     
     -- Shadow
-    ["rbxassetid://7860966398"] = "shadow_z",
-    ["rbxassetid://7860963972"] = "shadow_x",
-    ["rbxassetid://7860965307"] = "shadow_x_projectile",
-    ["rbxassetid://7860960861"] = "shadow_c",
-    ["rbxassetid://7860962774"] = "shadow_v",
+    ["rbxassetid://7860966398"] = "shadow_z", ["rbxassetid://7860963972"] = "shadow_x", ["rbxassetid://7860965307"] = "shadow_x_projectile", ["rbxassetid://7860960861"] = "shadow_c", ["rbxassetid://7860962774"] = "shadow_v",
     
-    -- Control
-    ["rbxassetid://101360736599888"] = "control_m1_4",
-    ["rbxassetid://101600422519410"] = "control_m1_3",
-    ["rbxassetid://120974680251298"] = "control_m1_2",
-    ["rbxassetid://140188659079703"] = "control_m1_1",
-    ["rbxassetid://15223783395"] = "control_body_possession",
-    ["rbxassetid://15223785285"] = "control_possession_launch",
-    
-    -- Rumble
-    ["rbxassetid://3372393228"] = "thunder_dragon",
-    ["rbxassetid://3372587055"] = "heavy_thunder",
-    ["rbxassetid://3372768706"] = "thunder_greeting",
-    ["rbxassetid://3372889911"] = "lightning_dash",
-    ["rbxassetid://3372978196"] = "lightning_dash2",
-    ["rbxassetid://119258933500509"] = "lightning_z_dragon_bite",
-    ["rbxassetid://103444241387304"] = "lightning_x_fire",
+    -- Control Rework
+    ["rbxassetid://100117121376371"] = "control_dagger_x_hold", ["rbxassetid://100568374936548"] = "control_ultimate_cubes", ["rbxassetid://101360736599888"] = "control_m1_4", ["rbxassetid://101600422519410"] = "control_m1_3", ["rbxassetid://101871388530011"] = "control_fist_x_hold", ["rbxassetid://101908593476300"] = "control_fist_hit", ["rbxassetid://102268744569060"] = "control_dagger_to_fist", ["rbxassetid://102385032092936"] = "control_fist_to_dagger", ["rbxassetid://103029208617730"] = "control_ultimate_player", ["rbxassetid://104164252927919"] = "control_ultimate_camera", ["rbxassetid://105581632428223"] = "control_dodge_right", ["rbxassetid://107831105158269"] = "control_x_release", ["rbxassetid://109338517659640"] = "control_dagger_x_windup", ["rbxassetid://110396470193432"] = "control_dodge_back", ["rbxassetid://110663261566562"] = "control_forward_movement_in_room", ["rbxassetid://110683799953119"] = "control_fist_x_drop_cubes", ["rbxassetid://110698412908441"] = "control_dodge_forward_l", ["rbxassetid://110720850818278"] = "control_dagger_m1_hold", ["rbxassetid://111132072065045"] = "control_dagger_x_loop_fly", ["rbxassetid://111344087881831"] = "control_dagger_x_rock_jump", ["rbxassetid://112897776770717"] = "control_fist_m1_grow_loop", ["rbxassetid://116612443791896"] = "control_dagger_m1_release", ["rbxassetid://120974680251298"] = "control_m1_2", ["rbxassetid://121775742501117"] = "control_sky_jump", ["rbxassetid://121947833970323"] = "control_ultimate_left_dagger", ["rbxassetid://121982453080224"] = "control_physical_fruit_animation_model", ["rbxassetid://122467253063574"] = "control_dodge_forward_r", ["rbxassetid://122489480695318"] = "control_dagger_x_release", ["rbxassetid://126603088763848"] = "control_left_movement_in_room", ["rbxassetid://127835496492972"] = "control_dodge_left", ["rbxassetid://128845645780316"] = "control_dagger_anim", ["rbxassetid://129119660298350"] = "control_c_release", ["rbxassetid://130323574088781"] = "control_f_release", ["rbxassetid://131332484793197"] = "control_dagger_c_hold", ["rbxassetid://131435017635132"] = "control_take_daggers_out", ["rbxassetid://131893269095705"] = "control_c_hold", ["rbxassetid://132373793565363"] = "control_dagger_c_release", ["rbxassetid://133088806806889"] = "control_room_opening_end", ["rbxassetid://135294023958855"] = "control_ultimate_victim_camera", ["rbxassetid://136687792607527"] = "control_fist_x_release", ["rbxassetid://138671349497969"] = "control_dagger_x_loop_rock", ["rbxassetid://140188659079703"] = "control_m1_1", ["rbxassetid://140211891452921"] = "control_f_hold", ["rbxassetid://15223783395"] = "control_body_possession", ["rbxassetid://15223785285"] = "control_possession_launch", ["rbxassetid://70860174681162"] = "control_x_hit", ["rbxassetid://72565143074927"] = "control_room_opening_start", ["rbxassetid://73818503178937"] = "control_dagger_x_hit", ["rbxassetid://76242700978852"] = "control_hand_summon", ["rbxassetid://77547832644005"] = "control_backward_movement_in_room", ["rbxassetid://79774251563122"] = "control_grabbed_loop", ["rbxassetid://80182001253081"] = "control_fist_m1_rise_cube", ["rbxassetid://84381735354697"] = "control_fist_m1_fling_cube", ["rbxassetid://86255161520094"] = "control_room_opening_loop", ["rbxassetid://86548536967200"] = "control_fist_c_release", ["rbxassetid://86945072707135"] = "control_slam", ["rbxassetid://87597275308719"] = "control_fist_c_hold", ["rbxassetid://88118437680796"] = "control_right_movement_in_room", ["rbxassetid://89642041308533"] = "control_fist_m1_spawn_cube", ["rbxassetid://92173228188614"] = "control_x_hold", ["rbxassetid://93928216955617"] = "control_ultimate_victim_player", ["rbxassetid://98465530977590"] = "control_ultimate_right_dagger",
     
     -- Magma
-    ["rbxassetid://10400186651"] = "magma_c",
-    ["rbxassetid://10400188810"] = "magma_v",
-    ["rbxassetid://10400190643"] = "magma_x",
-    ["rbxassetid://10400192337"] = "magma_z",
-    ["rbxassetid://6974381213"] = "magma2_z_loop",
-    ["rbxassetid://6974397959"] = "magma2_x_tackle",
-    ["rbxassetid://6974448419"] = "magma2_x_punch",
-    ["rbxassetid://6978474805"] = "magma2_c_punch",
+    ["rbxassetid://10400186651"] = "magma_c", ["rbxassetid://10400188810"] = "magma_v", ["rbxassetid://10400190643"] = "magma_x", ["rbxassetid://10400192337"] = "magma_z", ["rbxassetid://6974381213"] = "magma2_z_loop", ["rbxassetid://6974397959"] = "magma2_x_tackle", ["rbxassetid://6974448419"] = "magma2_x_punch", ["rbxassetid://6978474805"] = "magma2_c_punch",
     
     -- Ice
-    ["rbxassetid://10481693883"] = "ice_age",
-    ["rbxassetid://10481698081"] = "ice_bird",
-    ["rbxassetid://10481699987"] = "ice_stomp",
-    ["rbxassetid://10481701862"] = "ice_storm",
-    ["rbxassetid://4765144551"] = "ice_dragon",
+    ["rbxassetid://10481693883"] = "ice_age", ["rbxassetid://10481698081"] = "ice_bird", ["rbxassetid://10481699987"] = "ice_stomp", ["rbxassetid://10481701862"] = "ice_storm", ["rbxassetid://4765144551"] = "ice_dragon",
     
     -- Flame
-    ["rbxassetid://10481707121"] = "flame_enkai",
-    ["rbxassetid://10481713331"] = "fire_fist",
-    ["rbxassetid://10481715353"] = "fire_pillar",
-    ["rbxassetid://2797883567"] = "fire_fist_old",
-    ["rbxassetid://2797885950"] = "fire_bullets",
-    ["rbxassetid://2797891051"] = "fire_pillar_old",
+    ["rbxassetid://10481707121"] = "flame_enkai", ["rbxassetid://10481713331"] = "fire_fist", ["rbxassetid://10481715353"] = "fire_pillar", ["rbxassetid://2797883567"] = "fire_fist_old", ["rbxassetid://2797885950"] = "fire_bullets", ["rbxassetid://2797891051"] = "fire_pillar_old",
     
     -- Light
-    ["rbxassetid://2931331766"] = "light_kick",
-    ["rbxassetid://10552257231"] = "light_kick_1",
-    ["rbxassetid://5537328268"] = "light_throw_down",
+    ["rbxassetid://2931331766"] = "light_kick", ["rbxassetid://10552257231"] = "light_kick_1", ["rbxassetid://5537328268"] = "light_throw_down",
     
     -- Dark
-    ["rbxassetid://10366121145"] = "dark_black_hole",
-    ["rbxassetid://10366125508"] = "dark_liberation",
-    ["rbxassetid://10366128825"] = "dark_bomb",
+    ["rbxassetid://10366121145"] = "dark_black_hole", ["rbxassetid://10366125508"] = "dark_liberation", ["rbxassetid://10366128825"] = "dark_bomb",
     
     -- Love
-    ["rbxassetid://6930385955"] = "love_mellow",
-    ["rbxassetid://6930421731"] = "love_irresistible_c",
-    ["rbxassetid://6930514525"] = "scented_kicks_v",
-    ["rbxassetid://6930843499"] = "love_kick_lunge_v",
+    ["rbxassetid://6930385955"] = "love_mellow", ["rbxassetid://6930421731"] = "love_irresistible_c", ["rbxassetid://6930514525"] = "scented_kicks_v", ["rbxassetid://6930843499"] = "love_kick_lunge_v",
     
     -- String
-    ["rbxassetid://12558569579"] = "string_slash",
-    ["rbxassetid://12558699766"] = "new_string_x",
-    ["rbxassetid://12559457557"] = "ultimate_thread",
-    ["rbxassetid://6026895313"] = "string_z_slash_loop",
-    ["rbxassetid://6026926772"] = "string_x_cage",
+    ["rbxassetid://12558569579"] = "string_slash", ["rbxassetid://12558699766"] = "new_string_x", ["rbxassetid://12559457557"] = "ultimate_thread", ["rbxassetid://6026895313"] = "string_z_slash_loop", ["rbxassetid://6026926772"] = "string_x_cage",
     
-    -- Paw
-    ["rbxassetid://3632931013"] = "paw_barrage",
-    ["rbxassetid://3633014797"] = "paw_bear_shock",
-    ["rbxassetid://3633080527"] = "paw_repulse",
-    ["rbxassetid://3633173701"] = "paw_pressure_cannon",
+    -- Pain (Formerly Paw)
+    ["rbxassetid://3632931013"] = "paw_barrage", ["rbxassetid://3633014797"] = "paw_bear_shock", ["rbxassetid://3633080527"] = "paw_repulse", ["rbxassetid://3633173701"] = "paw_pressure_cannon", ["rbxassetid://100521164844756"] = "pain_m1_2", ["rbxassetid://101625638823710"] = "pain_f_hold", ["rbxassetid://110979233602346"] = "pain_v_hold", ["rbxassetid://111226568469290"] = "pain_sky_jump_r", ["rbxassetid://113925646516820"] = "pain_v_fire", ["rbxassetid://116438165033909"] = "pain_x_beam_success", ["rbxassetid://116562081627017"] = "pain_m1_1", ["rbxassetid://120757890977853"] = "pain_f_land", ["rbxassetid://121054798482251"] = "pain_x_hold", ["rbxassetid://122090461880435"] = "pain_v_spirit_release", ["rbxassetid://122932804314039"] = "pain_v_spirit_activate", ["rbxassetid://123354477473410"] = "pain_aura", ["rbxassetid://124325970220693"] = "pain_z_hold", ["rbxassetid://126683961405720"] = "pain_c_hold", ["rbxassetid://127298807667518"] = "pain_dash_l", ["rbxassetid://128756559855795"] = "pain_dash_forward_r", ["rbxassetid://129418026124779"] = "pain_f_dash", ["rbxassetid://130563251526848"] = "pain_m1_3", ["rbxassetid://132153420190484"] = "pain_sky_jump_l", ["rbxassetid://135442773562863"] = "pain_f_start", ["rbxassetid://137192396844544"] = "pain_v_spirit_hold", ["rbxassetid://137629031442502"] = "pain_ghost", ["rbxassetid://138722523281152"] = "pain_dash_r", ["rbxassetid://139751713795967"] = "awakened_pain_m1_4", ["rbxassetid://140044061689160"] = "pain_ghost2", ["rbxassetid://140481209543252"] = "pain_dash_back", ["rbxassetid://70454413521781"] = "awakened_pain_m1_3", ["rbxassetid://71116268703584"] = "pain_death_anim", ["rbxassetid://77364022053922"] = "pain_f_air_hold", ["rbxassetid://78039578921487"] = "pain_big_ghost_roar", ["rbxassetid://78324134056891"] = "pain_f_success", ["rbxassetid://83068955826950"] = "pain_z_tap", ["rbxassetid://84066587308041"] = "pain_awakened_idle", ["rbxassetid://86522349187692"] = "pain_m1_4", ["rbxassetid://87024065901090"] = "pain_revive", ["rbxassetid://90833467617361"] = "awakened_pain_m1_1", ["rbxassetid://94420882925034"] = "pain_x_dash", ["rbxassetid://94450449066191"] = "pain_c_fire", ["rbxassetid://95447248532318"] = "pain_f_kick", ["rbxassetid://95608824261667"] = "pain_dash_forward_l", ["rbxassetid://97578561094681"] = "pain_ghost_spawn", ["rbxassetid://99282890991175"] = "pain_x_success", ["rbxassetid://99390480929693"] = "awakened_pain_m1_2",
     
     -- Gravity
-    ["rbxassetid://3440318003"] = "gravity_tiger",
-    ["rbxassetid://3440400339"] = "gravity_x",
-    ["rbxassetid://3445798653"] = "gravity_effect",
-    ["rbxassetid://3445912481"] = "gravity_flight",
+    ["rbxassetid://3440318003"] = "gravity_tiger", ["rbxassetid://3440400339"] = "gravity_x", ["rbxassetid://3445798653"] = "gravity_effect", ["rbxassetid://3445912481"] = "gravity_flight",
     
     -- Phoenix
-    ["rbxassetid://10659187324"] = "phoenix_kick",
-    ["rbxassetid://10659189345"] = "phoenix_heal",
-    ["rbxassetid://10659190316"] = "phoenix_lev",
-    ["rbxassetid://8789175139"] = "phoenix_z",
-    ["rbxassetid://8789172490"] = "phoenix_left_click",
+    ["rbxassetid://10659187324"] = "phoenix_kick", ["rbxassetid://10659189345"] = "phoenix_heal", ["rbxassetid://10659190316"] = "phoenix_lev", ["rbxassetid://8789175139"] = "phoenix_z", ["rbxassetid://8789172490"] = "phoenix_left_click",
     
     -- Rubber
-    ["rbxassetid://10165694728"] = "rubber_pistol",
-    ["rbxassetid://10165961780"] = "rubber_bazooka_start",
-    ["rbxassetid://10165968736"] = "rubber_bazooka_attack",
-    ["rbxassetid://10166200938"] = "rubber_axe_hold",
-    ["rbxassetid://10166202329"] = "rubber_axe_attack",
-    ["rbxassetid://10166333910"] = "rubber_rush_start",
-    ["rbxassetid://10166340559"] = "rubber_rush_end",
-    ["rbxassetid://10166634301"] = "rubber_transformation",
-    ["rbxassetid://10180090112"] = "rubber_rocket_hold",
-    ["rbxassetid://10180095729"] = "rubber_rocket_stretch",
+    ["rbxassetid://10165694728"] = "rubber_pistol", ["rbxassetid://10165961780"] = "rubber_bazooka_start", ["rbxassetid://10165968736"] = "rubber_bazooka_attack", ["rbxassetid://10166200938"] = "rubber_axe_hold", ["rbxassetid://10166202329"] = "rubber_axe_attack", ["rbxassetid://10166333910"] = "rubber_rush_start", ["rbxassetid://10166340559"] = "rubber_rush_end", ["rbxassetid://10166634301"] = "rubber_transformation", ["rbxassetid://10180090112"] = "rubber_rocket_hold", ["rbxassetid://10180095729"] = "rubber_rocket_stretch",
+    
+    -- Yeti (Base & Fiend)
+    ["rbxassetid://130780318892433"] = "yeti_m1_1", ["rbxassetid://133763061617171"] = "yeti_m1_2", ["rbxassetid://83079577351030"] = "yeti_m1_3", ["rbxassetid://80648612261398"] = "yeti_m1_4", ["rbxassetid://111887783092109"] = "yeti_zfire", ["rbxassetid://139058639617273"] = "yeti_zhold", ["rbxassetid://102200030357646"] = "yeti_xfire", ["rbxassetid://78488184324185"] = "yeti_xhold", ["rbxassetid://109554749916728"] = "yeti_roar", ["rbxassetid://100766463201877"] = "yeti_bossroar", ["rbxassetid://109416209905116"] = "yeti_grabstart", ["rbxassetid://103869855260518"] = "yeti_fcharge", ["rbxassetid://109113135918074"] = "yeti_transcpunch", ["rbxassetid://103914448672228"] = "yeti_transcmiss", ["rbxassetid://118579235662157"] = "yeti_transfcharge", ["rbxassetid://118515552611093"] = "yeti_transfgrabair", ["rbxassetid://114880729721943"] = "yeti_transfgrabairslam", ["rbxassetid://122348067046941"] = "yeti_transfgrabground", ["rbxassetid://136321943686041"] = "yeti_transzfire", ["rbxassetid://77788588207360"] = "yeti_transzcharge", ["rbxassetid://136819197456606"] = "yeti_transxfire", ["rbxassetid://116650605830578"] = "yeti_transxcharge", ["rbxassetid://119100123951058"] = "yeti_transccharge", ["rbxassetid://117906187649185"] = "yeti_fiend_idle",
+
+    -- T-Rex
+    ["rbxassetid://15621815035"] = "trex_m1", ["rbxassetid://15621815841"] = "trex_m2", ["rbxassetid://15621816468"] = "trex_m3", ["rbxassetid://15621817123"] = "trex_m4", ["rbxassetid://15621831206"] = "dino_x", ["rbxassetid://15621830338"] = "dino_c_release", ["rbxassetid://15621830847"] = "dino_c_hold", ["rbxassetid://15621833251"] = "dino_z_hold", ["rbxassetid://15621833681"] = "dino_z_release", ["rbxassetid://15621829229"] = "trex_transformation", ["rbxassetid://15694698704"] = "trex_bite_grab_dash", ["rbxassetid://15694699617"] = "trex_ability_charge",
+
+    -- Mammoth
+    ["rbxassetid://14255066569"] = "mammoth_m1_1", ["rbxassetid://14255068481"] = "mammoth_m1_2", ["rbxassetid://14255070373"] = "mammoth_m1_3", ["rbxassetid://14255072275"] = "mammoth_m1_4", ["rbxassetid://14255085171"] = "mammoth_z_transformed", ["rbxassetid://14255086996"] = "mammoth_z_untrans", ["rbxassetid://14255083195"] = "mammoth_x_untrans", ["rbxassetid://14255047706"] = "mammoth_c_untrans", ["rbxassetid://14254989796"] = "mammoth_punt", ["rbxassetid://14255078134"] = "mammoth_stampede", ["rbxassetid://14255074209"] = "mammoth_roar",
+
+    -- Sound
+    ["rbxassetid://14710012418"] = "sound_f", ["rbxassetid://14710024020"] = "sound_v_charge", ["rbxassetid://14710025449"] = "sound_v", ["rbxassetid://14710031224"] = "sound_x_tap", ["rbxassetid://14710032707"] = "sound_x_windup", ["rbxassetid://14710034727"] = "sound_x_loop", ["rbxassetid://14975252013"] = "sound_z", ["rbxassetid://14975257771"] = "sound_z_charge", ["rbxassetid://15038189404"] = "sound_c_charge", ["rbxassetid://15038191027"] = "sound_c",
+
+    -- Bomb
+    ["rbxassetid://107474818528950"] = "bomb_c_hold_fire", ["rbxassetid://121538224208193"] = "bomb_z_hold", ["rbxassetid://125894681943922"] = "bomb_v_fire", ["rbxassetid://126645052391255"] = "bomb_f_forward_fire", ["rbxassetid://128997428411237"] = "bomb_m1_hold", ["rbxassetid://130112471289185"] = "bomb_c_tap_fire", ["rbxassetid://130636296781476"] = "bomb_z_fire", ["rbxassetid://133545505706806"] = "bomb_m1_start", ["rbxassetid://139603456650148"] = "bomb_z_start", ["rbxassetid://139774578292477"] = "bomb_m1_fire", ["rbxassetid://71215193042676"] = "bomb_x_start", ["rbxassetid://73248206045037"] = "bomb_f_upward_fire", ["rbxassetid://76709505868190"] = "bomb_c_hold", ["rbxassetid://76984518916244"] = "bomb_x_success", ["rbxassetid://85714663241535"] = "bomb_v_hold", ["rbxassetid://91397844045551"] = "bomb_x_fire", ["rbxassetid://98082338655611"] = "bomb_x_hold", ["rbxassetid://9906518054"] = "rs_selfdestructattack", ["rbxassetid://9906523942"] = "rs_bombzhold_", ["rbxassetid://9906525070"] = "rs_bombzrelease", ["rbxassetid://9906528272"] = "rs_bombxhold_", ["rbxassetid://9906530166"] = "rs_bombxrelease", ["rbxassetid://9906540249"] = "rs_bombzstart_", ["rbxassetid://9906547457"] = "rs_bombxstart_",
+
+    -- Spike
+    ["rbxassetid://3016483356"] = "rs_spikerush", ["rbxassetid://3017856322"] = "rs_spikerushloop", ["rbxassetid://9908589111"] = "rs_spikespinz", ["rbxassetid://9908599073"] = "rs_spikesummonx",
+
+    -- Chop
+    ["rbxassetid://18323748562"] = "rs_chopdodge", ["rbxassetid://9868478072"] = "rs_choptacklehold", ["rbxassetid://9868496368"] = "rs_chopxend", ["rbxassetid://9868499868"] = "rs_chopxloop", ["rbxassetid://9868502797"] = "rs_chopxstart", ["rbxassetid://9868618350"] = "rs_chopfly", ["rbxassetid://9868735722"] = "rs_choptackleloop", ["rbxassetid://9868736872"] = "rs_choptackle", ["rbxassetid://9874653849"] = "rs_chopbarrageend", ["rbxassetid://9874656355"] = "rs_chopbarragehold", ["rbxassetid://9874750712"] = "rs_chopbarrageloop",
+
+    -- Spring
+    ["rbxassetid://3300884043"] = "rs_springpunch", ["rbxassetid://3304785489"] = "rs_springupdown", ["rbxassetid://3304799526"] = "rs_springflight", ["rbxassetid://9867289984"] = "rs_springsnipe", ["rbxassetid://9867396019"] = "rs_springknock", ["rbxassetid://9867400667"] = "rs_springcannon", ["rbxassetid://9876008666"] = "rs_springcharge",
+
+    -- Diamond
+    ["rbxassetid://18222667991"] = "rs_diamondblind", ["rbxassetid://18222670957"] = "rs_diamondmirrorshow", ["rbxassetid://18237248352"] = "rs_diamondencrust", ["rbxassetid://18261375590"] = "rs_diamondburstfire", ["rbxassetid://18261376998"] = "rs_diamondloopfire", ["rbxassetid://6922095684"] = "rs_diamondtransform", ["rbxassetid://6922139258"] = "rs_diamondtackle", ["rbxassetid://6922257822"] = "rs_diamondc", ["rbxassetid://6922289980"] = "rs_diamondv",
+
+    -- Sand
+    ["rbxassetid://10729234786"] = "rs_sand1c", ["rbxassetid://10729235901"] = "rs_sand1f", ["rbxassetid://10729237686"] = "rs_sand1v", ["rbxassetid://10729239324"] = "rs_sand1x", ["rbxassetid://10729240980"] = "rs_sand1z", ["rbxassetid://3421215897"] = "rs_sandsmash", ["rbxassetid://3429049454"] = "rs_sandx", ["rbxassetid://3429124621"] = "rs_sandblast",
+
+    -- Blade
+    ["rbxassetid://18202276216"] = "rs_bladec_charge", ["rbxassetid://18202279378"] = "rs_bladec", ["rbxassetid://18202280728"] = "rs_bladef", ["rbxassetid://18202282280"] = "rs_bladem1_1", ["rbxassetid://18202284237"] = "rs_bladem1_2", ["rbxassetid://18202285466"] = "rs_bladex_end", ["rbxassetid://18202286771"] = "rs_bladex_loop", ["rbxassetid://18202288050"] = "rs_bladex_start", ["rbxassetid://18202289593"] = "rs_bladez_charge", ["rbxassetid://18202290865"] = "rs_bladez",
+
+    -- Revive
+    ["rbxassetid://87024065901090"] = "rs_painrevive", ["rbxassetid://121749335304244"] = "rs_werewolfawakening", ["rbxassetid://127415131497231"] = "rs_thundergodawaken", ["rbxassetid://120832178559224"] = "rs_ruthlessprisonerawaken", ["rbxassetid://124683204007187"] = "rs_magmaadmiralawaken", ["rbxassetid://138399267381365"] = "rs_viceadmiralawaken", ["rbxassetid://71335370342954"] = "rs_chiefwardenawaken", ["rbxassetid://96060270043459"] = "rs_chefawaken", ["rbxassetid://76388027204442"] = "rs_gorillakingawaken", ["rbxassetid://128396330343534"] = "rs_fishmanlordawaken",
 
     -- === FIGHTING STYLES ===
     -- Superhuman
-    ["rbxassetid://4538320853"] = "superhuman_z_punching",
-    ["rbxassetid://4538345399"] = "superhuman_x_charge",
-    ["rbxassetid://4538457797"] = "superhuman_x_release",
-    ["rbxassetid://4538497673"] = "superhuman_c",
-    ["rbxassetid://4538773071"] = "superhuman_z_grab",
-    ["rbxassetid://10275674268"] = "superhumanv2_z",
-    ["rbxassetid://10275676392"] = "superhumanv2_x",
-    ["rbxassetid://10275680692"] = "superhumanv2_c",
-    
+    ["rbxassetid://4538320853"] = "superhuman_z_punching", ["rbxassetid://4538345399"] = "superhuman_x_charge", ["rbxassetid://4538457797"] = "superhuman_x_release", ["rbxassetid://4538497673"] = "superhuman_c", ["rbxassetid://4538773071"] = "superhuman_z_grab", ["rbxassetid://10275674268"] = "superhumanv2_z", ["rbxassetid://10275676392"] = "superhumanv2_x", ["rbxassetid://10275680692"] = "superhumanv2_c",
     -- Godhuman
-    ["rbxassetid://11837253246"] = "godhuman_action",
-    ["rbxassetid://18686502223"] = "angel_x",
-    ["rbxassetid://18637207623"] = "angel_z",
-    ["rbxassetid://18637209873"] = "angel_z_execute",
-    ["rbxassetid://18637214138"] = "angel_c_hold",
-    ["rbxassetid://18637217215"] = "angel_z_grab",
-    ["rbxassetid://18637218777"] = "angel_c_start",
-    ["rbxassetid://18686496907"] = "angel_z_charge",
-    
+    ["rbxassetid://11837253246"] = "godhuman_action", ["rbxassetid://18686502223"] = "angel_x", ["rbxassetid://18637207623"] = "angel_z", ["rbxassetid://18637209873"] = "angel_z_execute", ["rbxassetid://18637214138"] = "angel_c_hold", ["rbxassetid://18637217215"] = "angel_z_grab", ["rbxassetid://18637218777"] = "angel_c_start", ["rbxassetid://18686496907"] = "angel_z_charge",
     -- Sanguine Art
-    ["rbxassetid://14418366043"] = "ghoul_x",
-    ["rbxassetid://14418370048"] = "ghoul_z",
-    ["rbxassetid://14418364014"] = "ghoul_x_charge",
-    ["rbxassetid://14418367908"] = "ghoul_z_charge",
-    ["rbxassetid://14418371629"] = "ghoul_z_grab",
-    ["rbxassetid://14418373163"] = "ghoul_z_grab_victim",
-    
+    ["rbxassetid://14418366043"] = "ghoul_x", ["rbxassetid://14418370048"] = "ghoul_z", ["rbxassetid://14418364014"] = "ghoul_x_charge", ["rbxassetid://14418367908"] = "ghoul_z_charge", ["rbxassetid://14418371629"] = "ghoul_z_grab", ["rbxassetid://14418373163"] = "ghoul_z_grab_victim",
     -- Dragon Talon
-    ["rbxassetid://18839090707"] = "dtalon_z_dash",
-    ["rbxassetid://18839092454"] = "dtalon_z_execute",
-    ["rbxassetid://18839097994"] = "dtalon_x_fire",
-    ["rbxassetid://18839100334"] = "dtalon_x_ride_start",
-    ["rbxassetid://18839101817"] = "dtalon_x_ride_loop",
-    ["rbxassetid://18839104237"] = "dtalon_x_ride_jumpoff",
-    ["rbxassetid://18839106750"] = "dtalon_c_rise_up",
-    ["rbxassetid://18839108899"] = "dtalon_c_land",
-    ["rbxassetid://18839110167"] = "dtalon_c_dive_down",
-    
+    ["rbxassetid://18839090707"] = "dtalon_z_dash", ["rbxassetid://18839092454"] = "dtalon_z_execute", ["rbxassetid://18839097994"] = "dtalon_x_fire", ["rbxassetid://18839100334"] = "dtalon_x_ride_start", ["rbxassetid://18839101817"] = "dtalon_x_ride_loop", ["rbxassetid://18839104237"] = "dtalon_x_ride_jumpoff", ["rbxassetid://18839106750"] = "dtalon_c_rise_up", ["rbxassetid://18839108899"] = "dtalon_c_land", ["rbxassetid://18839110167"] = "dtalon_c_dive_down",
     -- Electric Claw
-    ["rbxassetid://6875245422"] = "electro_claw_z_slash",
-    ["rbxassetid://6875431170"] = "electro_claw_z_impact",
-    ["rbxassetid://6875442680"] = "electro_claw_x_flight",
-    ["rbxassetid://6875482640"] = "electro_claw_c_impact",
-    ["rbxassetid://6875496851"] = "electro_claw_x_impact",
-    ["rbxassetid://6875498227"] = "electro_claw_c_loop",
-    ["rbxassetid://6875568524"] = "electro_claw_c_hold",
-    
+    ["rbxassetid://6875245422"] = "electro_claw_z_slash", ["rbxassetid://6875431170"] = "electro_claw_z_impact", ["rbxassetid://6875442680"] = "electro_claw_x_flight", ["rbxassetid://6875482640"] = "electro_claw_c_impact", ["rbxassetid://6875496851"] = "electro_claw_x_impact", ["rbxassetid://6875498227"] = "electro_claw_c_loop", ["rbxassetid://6875568524"] = "electro_claw_c_hold",
     -- Sharkman Karate
-    ["rbxassetid://3449829958"] = "shark_punch",
-    ["rbxassetid://3450471830"] = "fish_drill",
-    ["rbxassetid://6521453519"] = "shark_skill_z",
-    ["rbxassetid://6521503717"] = "shark_skill_c_pull",
-    ["rbxassetid://6523488885"] = "shark_skill_c_blast",
-    
+    ["rbxassetid://3449829958"] = "shark_punch", ["rbxassetid://3450471830"] = "fish_drill", ["rbxassetid://6521453519"] = "shark_skill_z", ["rbxassetid://6521503717"] = "shark_skill_c_pull", ["rbxassetid://6523488885"] = "shark_skill_c_blast",
     -- Death Step
-    ["rbxassetid://6090277172"] = "death_step_z",
-    ["rbxassetid://6090321333"] = "death_step_x_windup",
-    ["rbxassetid://6090348710"] = "death_step_x_release",
-    ["rbxassetid://11499949783"] = "death_step_2_c",
-    ["rbxassetid://11499950640"] = "death_step_2_c_end",
-    
+    ["rbxassetid://6090277172"] = "death_step_z", ["rbxassetid://6090321333"] = "death_step_x_windup", ["rbxassetid://6090348710"] = "death_step_x_release", ["rbxassetid://11499949783"] = "death_step_2_c", ["rbxassetid://11499950640"] = "death_step_2_c_end",
     -- Black Leg
-    ["rbxassetid://10581386092"] = "black_leg_party_start",
-    ["rbxassetid://10581389297"] = "black_leg_party_loop",
-    ["rbxassetid://10581396234"] = "black_leg_party_end",
-    ["rbxassetid://10581399083"] = "black_leg_kicks",
-    ["rbxassetid://10581401357"] = "black_leg_ignite",
-    ["rbxassetid://10581404276"] = "black_leg_conc_start",
-    ["rbxassetid://10581410118"] = "black_leg_conc_spin",
+    ["rbxassetid://10581386092"] = "black_leg_party_start", ["rbxassetid://10581389297"] = "black_leg_party_loop", ["rbxassetid://10581396234"] = "black_leg_party_end", ["rbxassetid://10581399083"] = "black_leg_kicks", ["rbxassetid://10581401357"] = "black_leg_ignite", ["rbxassetid://10581404276"] = "black_leg_conc_start", ["rbxassetid://10581410118"] = "black_leg_conc_spin",
+    -- Water Kung Fu
+    ["rbxassetid://118986225252786"] = "waterkungfu_xhold", ["rbxassetid://120302777018833"] = "waterkungfu_zfire", ["rbxassetid://121074895015746"] = "waterkungfu_cfire", ["rbxassetid://124632876204519"] = "waterkungfu_chold", ["rbxassetid://78483349892652"] = "waterkungfu_xfire", ["rbxassetid://84145762765846"] = "waterkungfu_zhold",
 
     -- === SWORDS ===
     -- Dragonheart
-    ["rbxassetid://18839090707"] = "dragonheart_z_dash",
-    ["rbxassetid://18839092454"] = "dragonheart_z_execute",
-    ["rbxassetid://18839097994"] = "dragonheart_x_fire",
-    ["rbxassetid://18839100334"] = "dragonheart_x_ride_start",
-    ["rbxassetid://18839101817"] = "dragonheart_x_ride_loop",
-    ["rbxassetid://18839104237"] = "dragonheart_x_ride_jumpoff",
-    ["rbxassetid://18839106750"] = "dragonheart_c_rise_up",
-    ["rbxassetid://18839108899"] = "dragonheart_c_land",
-    ["rbxassetid://18839110167"] = "dragonheart_c_dive_down",
-
+    ["rbxassetid://18839090707"] = "dragonheart_z_dash", ["rbxassetid://18839092454"] = "dragonheart_z_execute", ["rbxassetid://18839097994"] = "dragonheart_x_fire", ["rbxassetid://18839100334"] = "dragonheart_x_ride_start", ["rbxassetid://18839101817"] = "dragonheart_x_ride_loop", ["rbxassetid://18839104237"] = "dragonheart_x_ride_jumpoff", ["rbxassetid://18839106750"] = "dragonheart_c_rise_up", ["rbxassetid://18839108899"] = "dragonheart_c_land", ["rbxassetid://18839110167"] = "dragonheart_c_dive_down",
     -- Cursed Dual Katana
-    ["rbxassetid://10154778608"] = "cursed_dual_katana_z",
-    ["rbxassetid://10154780329"] = "cursed_dual_katana_x",
-    
+    ["rbxassetid://10154778608"] = "cursed_dual_katana_z", ["rbxassetid://10154780329"] = "cursed_dual_katana_x",
     -- Dark Blade
-    ["rbxassetid://14413040313"] = "dark_blade_z",
-    ["rbxassetid://14413043892"] = "dark_blade_x_charge",
-    ["rbxassetid://14413045894"] = "dark_blade_x",
-    ["rbxassetid://5608311785"] = "darkness_sword",
-    
+    ["rbxassetid://14413040313"] = "dark_blade_z", ["rbxassetid://14413043892"] = "dark_blade_x_charge", ["rbxassetid://14413045894"] = "dark_blade_x", ["rbxassetid://5608311785"] = "darkness_sword", ["rbxassetid://14413160100"] = "rs_kokoz", ["rbxassetid://14413161908"] = "rs_kokox",
     -- Saddi
-    ["rbxassetid://13822245551"] = "saddi_z_charge",
-    ["rbxassetid://13822248409"] = "saddi_z_attack",
-    ["rbxassetid://14450985341"] = "saddi_x_charge",
-    ["rbxassetid://14450986931"] = "saddi_x",
-    
+    ["rbxassetid://13822245551"] = "saddi_z_charge", ["rbxassetid://13822248409"] = "saddi_z_attack", ["rbxassetid://14450985341"] = "saddi_x_charge", ["rbxassetid://14450986931"] = "saddi_x",
     -- Shisui
-    ["rbxassetid://14413070608"] = "shisui_z_charge",
-    ["rbxassetid://14413072569"] = "shisui_z",
-    ["rbxassetid://14413074567"] = "shisui_x_charge",
-    ["rbxassetid://14413076334"] = "shisui_x",
-    
+    ["rbxassetid://14413070608"] = "shisui_z_charge", ["rbxassetid://14413072569"] = "shisui_z", ["rbxassetid://14413074567"] = "shisui_x_charge", ["rbxassetid://14413076334"] = "shisui_x",
     -- Yama
-    ["rbxassetid://14414957163"] = "yama_z_charge",
-    ["rbxassetid://14414959463"] = "yama_z",
-    ["rbxassetid://14414961101"] = "yama_x_charge",
-    ["rbxassetid://14414962417"] = "yama_x",
-    
+    ["rbxassetid://14414957163"] = "yama_z_charge", ["rbxassetid://14414959463"] = "yama_z", ["rbxassetid://14414961101"] = "yama_x_charge", ["rbxassetid://14414962417"] = "yama_x",
     -- Tushita
-    ["rbxassetid://14414857470"] = "tushita_z_loop",
-    ["rbxassetid://14414860184"] = "tushita_z_windup",
-    ["rbxassetid://14414862665"] = "tushita_x_charge",
-    ["rbxassetid://14414864825"] = "tushita_x",
-    
+    ["rbxassetid://14414857470"] = "tushita_z_loop", ["rbxassetid://14414860184"] = "tushita_z_windup", ["rbxassetid://14414862665"] = "tushita_x_charge", ["rbxassetid://14414864825"] = "tushita_x",
     -- Rengoku
-    ["rbxassetid://14413680104"] = "rengoku_x_charge",
-    ["rbxassetid://14413684205"] = "rengoku_x",
-    ["rbxassetid://14413687364"] = "rengoku_z_charge",
-    ["rbxassetid://14413690530"] = "rengoku_z_combo",
-    
+    ["rbxassetid://14413680104"] = "rengoku_x_charge", ["rbxassetid://14413684205"] = "rengoku_x", ["rbxassetid://14413687364"] = "rengoku_z_charge", ["rbxassetid://14413690530"] = "rengoku_z_combo",
     -- Dark Dagger
-    ["rbxassetid://7416940512"] = "dark_dagger_x_hit",
-    ["rbxassetid://7416943367"] = "dark_dagger_x_throw",
-    ["rbxassetid://7416945225"] = "dark_dagger_z",
-    
+    ["rbxassetid://7416940512"] = "dark_dagger_x_hit", ["rbxassetid://7416943367"] = "dark_dagger_x_throw", ["rbxassetid://7416945225"] = "dark_dagger_z",
     -- Spikey Trident
-    ["rbxassetid://14454215581"] = "trident_x_charge",
-    ["rbxassetid://14454218089"] = "trident_x",
-    ["rbxassetid://14454223745"] = "trident_z",
-    ["rbxassetid://3341408890"] = "trident_throw",
-    ["rbxassetid://8349203203"] = "trident_z_lunge",
-    
+    ["rbxassetid://14454215581"] = "trident_x_charge", ["rbxassetid://14454218089"] = "trident_x", ["rbxassetid://14454223745"] = "trident_z", ["rbxassetid://3341408890"] = "trident_throw", ["rbxassetid://8349203203"] = "trident_z_lunge",
     -- Dragon Trident
-    ["rbxassetid://14487074906"] = "dragon_trident_x_charge",
-    ["rbxassetid://14487076404"] = "dragon_trident_x",
-    ["rbxassetid://14487606673"] = "dragon_trident_z_charge",
-    ["rbxassetid://14487608816"] = "dragon_trident_z",
-    
+    ["rbxassetid://14487074906"] = "dragon_trident_x_charge", ["rbxassetid://14487076404"] = "dragon_trident_x", ["rbxassetid://14487606673"] = "dragon_trident_z_charge", ["rbxassetid://14487608816"] = "dragon_trident_z",
     -- True Triple Katana
-    ["rbxassetid://14468663966"] = "ttk_x_charge",
-    ["rbxassetid://14468667953"] = "ttk_x",
-    ["rbxassetid://14468670599"] = "ttk_z_charge",
-    ["rbxassetid://14468672805"] = "ttk_z",
-    ["rbxassetid://14469249414"] = "ttk_z_grab",
-    
+    ["rbxassetid://14468663966"] = "ttk_x_charge", ["rbxassetid://14468667953"] = "ttk_x", ["rbxassetid://14468670599"] = "ttk_z_charge", ["rbxassetid://14468672805"] = "ttk_z", ["rbxassetid://14469249414"] = "ttk_z_grab",
     -- Hollow Scythe
-    ["rbxassetid://7846478951"] = "scythe_flight",
-    ["rbxassetid://7846523755"] = "scythe_strike",
-    ["rbxassetid://7846555569"] = "scythe_tornado",
-    
+    ["rbxassetid://7846478951"] = "scythe_flight", ["rbxassetid://7846523755"] = "scythe_strike", ["rbxassetid://7846555569"] = "scythe_tornado",
     -- Bisento
-    ["rbxassetid://14464096911"] = "bisento_z_charge",
-    ["rbxassetid://14464098936"] = "bisento_z",
-    ["rbxassetid://14464103196"] = "bisento_x_charge",
-    ["rbxassetid://14464105784"] = "bisento_x",
-    ["rbxassetid://14487078613"] = "bisento_x_v1",
-    
+    ["rbxassetid://14464096911"] = "bisento_z_charge", ["rbxassetid://14464098936"] = "bisento_z", ["rbxassetid://14464103196"] = "bisento_x_charge", ["rbxassetid://14464105784"] = "bisento_x", ["rbxassetid://14487078613"] = "bisento_x_v1",
     -- Midnight Blade
-    ["rbxassetid://14811568307"] = "midnight_blade_z_charge",
-    ["rbxassetid://14811570362"] = "midnight_blade_z_slash",
-    ["rbxassetid://14811575381"] = "midnight_blade_z_attack",
-    ["rbxassetid://14817333472"] = "midnight_blade_x_charge",
-    ["rbxassetid://14817342008"] = "midnight_blade_x_attack",
-    
+    ["rbxassetid://14811568307"] = "midnight_blade_z_charge", ["rbxassetid://14811570362"] = "midnight_blade_z_slash", ["rbxassetid://14811575381"] = "midnight_blade_z_attack", ["rbxassetid://14817333472"] = "midnight_blade_x_charge", ["rbxassetid://14817342008"] = "midnight_blade_x_attack",
     -- Wando
-    ["rbxassetid://14438639964"] = "wando_z_start",
-    ["rbxassetid://14438641551"] = "wando_z_loop",
-    ["rbxassetid://14438643449"] = "wando_z_end",
-    ["rbxassetid://14438645475"] = "wando_x_charge",
-    ["rbxassetid://14438646984"] = "wando_x",
-    
+    ["rbxassetid://14438639964"] = "wando_z_start", ["rbxassetid://14438641551"] = "wando_z_loop", ["rbxassetid://14438643449"] = "wando_z_end", ["rbxassetid://14438645475"] = "wando_x_charge", ["rbxassetid://14438646984"] = "wando_x",
     -- Longsword
-    ["rbxassetid://4410554362"] = "longsword_x",
-    ["rbxassetid://4410927648"] = "longsword_z",
-    ["rbxassetid://14501016433"] = "longsword_v2_z",
-    ["rbxassetid://14510905955"] = "longsword_v2_x_loop",
-    ["rbxassetid://14510908635"] = "longsword_v2_x_slam",
-    
+    ["rbxassetid://4410554362"] = "longsword_x", ["rbxassetid://4410927648"] = "longsword_z", ["rbxassetid://14501016433"] = "longsword_v2_z", ["rbxassetid://14510905955"] = "longsword_v2_x_loop", ["rbxassetid://14510908635"] = "longsword_v2_x_slam",
     -- Saber
-    ["rbxassetid://14448775819"] = "saber_z",
-    ["rbxassetid://14448779250"] = "saber_z_charge",
-    ["rbxassetid://14448781249"] = "saber_x_charge",
-    ["rbxassetid://14448783211"] = "saber_x",
-    
+    ["rbxassetid://14448775819"] = "saber_z", ["rbxassetid://14448779250"] = "saber_z_charge", ["rbxassetid://14448781249"] = "saber_x_charge", ["rbxassetid://14448783211"] = "saber_x",
     -- Triple Katana
-    ["rbxassetid://14413101996"] = "triple_katana_x_charge",
-    ["rbxassetid://14413103824"] = "triple_katana_x",
-    ["rbxassetid://14413105486"] = "triple_katana_z_charge",
-    ["rbxassetid://14413107015"] = "triple_katana_z",
-
+    ["rbxassetid://14413101996"] = "triple_katana_x_charge", ["rbxassetid://14413103824"] = "triple_katana_x", ["rbxassetid://14413105486"] = "triple_katana_z_charge", ["rbxassetid://14413107015"] = "triple_katana_z",
     -- Gravity Cane
-    ["rbxassetid://14430459116"] = "gravity_cane_z",
-    ["rbxassetid://14430460557"] = "gravity_cane_z_charge",
-    ["rbxassetid://14430461696"] = "gravity_cane_x_charge",
-    ["rbxassetid://14430462737"] = "gravity_cane_x",
-    
+    ["rbxassetid://14430459116"] = "gravity_cane_z", ["rbxassetid://14430460557"] = "gravity_cane_z_charge", ["rbxassetid://14430461696"] = "gravity_cane_x_charge", ["rbxassetid://14430462737"] = "gravity_cane_x",
+    -- Twin Hooks
+    ["rbxassetid://102923914458878"] = "twinhooks_x_launch", ["rbxassetid://125872826454561"] = "twinhooks_x_followup", ["rbxassetid://139503820830366"] = "twinhooks_x_hold", ["rbxassetid://140163723163494"] = "twinhooks_z_charge", ["rbxassetid://85884076314402"] = "twinhooks_z_launch",
+    -- Anchor
+    ["rbxassetid://14798233012"] = "anchor_spin_z", ["rbxassetid://14798234117"] = "anchor_throw_z", ["rbxassetid://14798235968"] = "anchor_x",
+    -- Iron Mace
+    ["rbxassetid://13808105572"] = "rs_ironmacez", ["rbxassetid://13808117564"] = "rs_ironmacex",
+    -- Warden's Sword
+    ["rbxassetid://14413135583"] = "rs_wardensswordx", ["rbxassetid://14413138379"] = "rs_wardensswordzstart", ["rbxassetid://14413139975"] = "rs_wardensswordzend",
+    -- Soul Cane
+    ["rbxassetid://14413595232"] = "rs_soulcanez", ["rbxassetid://14413597319"] = "rs_soulcanezcharge", ["rbxassetid://14413600181"] = "rs_soulcanexwindup", ["rbxassetid://14413601932"] = "rs_soulcanexloop", ["rbxassetid://14413603416"] = "rs_soulcanexend",
+    -- Pipe
+    ["rbxassetid://14413746874"] = "rs_pipexcharge", ["rbxassetid://14413749737"] = "rs_pipex", ["rbxassetid://14413752513"] = "rs_pipezcharge", ["rbxassetid://14413753921"] = "rs_pipezburst", ["rbxassetid://14413755112"] = "rs_pipez", ["rbxassetid://14413757157"] = "rs_pipezsuperburst",
+    -- Jitte
+    ["rbxassetid://14450451668"] = "rs_jittex", ["rbxassetid://14450453962"] = "rs_jittezcharge", ["rbxassetid://14450455464"] = "rs_jittez",
+    -- Shark Saw
+    ["rbxassetid://14448784741"] = "rs_sharksawzcharge", ["rbxassetid://14448786300"] = "rs_sharksawz", ["rbxassetid://14448788225"] = "rs_sharksawxloop", ["rbxassetid://14448790501"] = "rs_sharksawxend",
+
     -- === GUNS ===
     -- Dragonstorm
-    ["rbxassetid://101204959922593"] = "dragonstorm_z_air_fire",
-    ["rbxassetid://106439897055253"] = "dragonstorm_z_air_hold",
-    ["rbxassetid://106844718128273"] = "dragonstorm_z_ground_fire",
-    ["rbxassetid://70713004641951"] = "dragonstorm_z_ground_hold",
-    ["rbxassetid://76860124531155"] = "dragonstorm_x_fire",
-    ["rbxassetid://138200689375310"] = "dragonstorm_x_hold",
-
+    ["rbxassetid://101204959922593"] = "dragonstorm_z_air_fire", ["rbxassetid://106439897055253"] = "dragonstorm_z_air_hold", ["rbxassetid://106844718128273"] = "dragonstorm_z_ground_fire", ["rbxassetid://70713004641951"] = "dragonstorm_z_ground_hold", ["rbxassetid://76860124531155"] = "dragonstorm_x_fire", ["rbxassetid://138200689375310"] = "dragonstorm_x_hold",
     -- Kabucha
-    ["rbxassetid://111868083867689"] = "kabucha_x_hold",
-    ["rbxassetid://123726666981238"] = "kabucha_z",
-    ["rbxassetid://92925078857563"] = "kabucha_z_hold",
-    ["rbxassetid://138039048812915"] = "kabucha_x",
-    
+    ["rbxassetid://111868083867689"] = "kabucha_x_hold", ["rbxassetid://123726666981238"] = "kabucha_z", ["rbxassetid://92925078857563"] = "kabucha_z_hold", ["rbxassetid://138039048812915"] = "kabucha_x",
     -- Serpent Bow
-    ["rbxassetid://5531036341"] = "arrow_pullback",
-    ["rbxassetid://5531218439"] = "arrow_release",
-    
+    ["rbxassetid://5531036341"] = "arrow_pullback", ["rbxassetid://5531218439"] = "arrow_release",
     -- Acidum Rifle
-    ["rbxassetid://106453481139698"] = "acidum_rifle_x_shoot",
-    ["rbxassetid://118303821838801"] = "acidum_rifle_z_hold",
-    ["rbxassetid://118395194339815"] = "acidum_rifle_z_shoot",
-    ["rbxassetid://124362025888361"] = "acidum_rifle_x_hold",
-    
+    ["rbxassetid://106453481139698"] = "acidum_rifle_x_shoot", ["rbxassetid://118303821838801"] = "acidum_rifle_z_hold", ["rbxassetid://118395194339815"] = "acidum_rifle_z_shoot", ["rbxassetid://124362025888361"] = "acidum_rifle_x_hold",
     -- Bazooka
-    ["rbxassetid://109830770671938"] = "bazooka_x",
-    ["rbxassetid://122971960897409"] = "bazooka_z",
-    ["rbxassetid://133002256120799"] = "bazooka_z_hold",
-    ["rbxassetid://136930339195545"] = "bazooka_x_hold",
-    
+    ["rbxassetid://109830770671938"] = "bazooka_x", ["rbxassetid://122971960897409"] = "bazooka_z", ["rbxassetid://133002256120799"] = "bazooka_z_hold", ["rbxassetid://136930339195545"] = "bazooka_x_hold",
     -- Cannon
-    ["rbxassetid://114477180734641"] = "cannon_z_shoot",
-    ["rbxassetid://135326976117137"] = "cannon_x_shoot",
-    ["rbxassetid://80849457704303"] = "cannon_x_hold",
-    ["rbxassetid://84117772585146"] = "cannon_z_hold",
-    
+    ["rbxassetid://114477180734641"] = "cannon_z_shoot", ["rbxassetid://135326976117137"] = "cannon_x_shoot", ["rbxassetid://80849457704303"] = "cannon_x_hold", ["rbxassetid://84117772585146"] = "cannon_z_hold",
     -- Musket
-    ["rbxassetid://118600253375332"] = "musket_z_hold",
-    ["rbxassetid://128164048005846"] = "musket_z_shoot",
-    ["rbxassetid://89399655199106"] = "musket_x_hold",
-    ["rbxassetid://84129110035668"] = "musket_x_shoot",
-    
+    ["rbxassetid://118600253375332"] = "musket_z_hold", ["rbxassetid://128164048005846"] = "musket_z_shoot", ["rbxassetid://89399655199106"] = "musket_x_hold", ["rbxassetid://84129110035668"] = "musket_x_shoot",
     -- Flintlock
-    ["rbxassetid://131781728117429"] = "flintlock_x_hold",
-    ["rbxassetid://131991356121011"] = "flintlock_z_hold",
-    ["rbxassetid://140726717888542"] = "flintlock_x_shoot",
-    ["rbxassetid://98689977572938"] = "flintlock_z_shoot",
-    
+    ["rbxassetid://131781728117429"] = "flintlock_x_hold", ["rbxassetid://131991356121011"] = "flintlock_z_hold", ["rbxassetid://140726717888542"] = "flintlock_x_shoot", ["rbxassetid://98689977572938"] = "flintlock_z_shoot",
     -- Dual Flintlock
-    ["rbxassetid://111473811904250"] = "dual_flintlock_x",
-    ["rbxassetid://128350363408643"] = "dual_flintlock_z",
-    ["rbxassetid://140296260922874"] = "dual_flintlock_z_charge",
-    
+    ["rbxassetid://111473811904250"] = "dual_flintlock_x", ["rbxassetid://128350363408643"] = "dual_flintlock_z", ["rbxassetid://140296260922874"] = "dual_flintlock_z_charge",
     -- Slingshot
-    ["rbxassetid://110072024135619"] = "slingshot_x_shoot",
-    ["rbxassetid://128299482277284"] = "slingshot_z_shoot",
-    ["rbxassetid://130963153998342"] = "slingshot_z_hold",
-    ["rbxassetid://99105691287225"] = "slingshot_x_hold"
+    ["rbxassetid://110072024135619"] = "slingshot_x_shoot", ["rbxassetid://128299482277284"] = "slingshot_z_shoot", ["rbxassetid://130963153998342"] = "slingshot_z_hold", ["rbxassetid://99105691287225"] = "slingshot_x_hold",
+
+    -- === TRANSFORMATIONS / EVENTS ===
+    -- Werewolf (Not a Tiger skin - Separate Transformation)
+    ["rbxassetid://93552175966148"] = "werewolf_idle", ["rbxassetid://121749335304244"] = "werewolf_awakening", ["rbxassetid://93337043137561"] = "werewolf_ultimate", ["rbxassetid://97721466511487"] = "werewolf_ultimate_victim", ["rbxassetid://80698949350874"] = "werewolf_ultimate_camera", ["rbxassetid://99049288828561"] = "werewolf_transformed_idle", ["rbxassetid://126172427048120"] = "werewolf_transformed_movement", ["rbxassetid://105496037374104"] = "werewolf_transformed_right", ["rbxassetid://105746370380417"] = "werewolf_transformed_backl", ["rbxassetid://71517388480330"] = "werewolf_transformed_frontr", ["rbxassetid://79574985897327"] = "werewolf_transformed_frontl", ["rbxassetid://82411342463994"] = "werewolf_transformed_left", ["rbxassetid://140122562850398"] = "werewolf_transformed_backr", ["rbxassetid://73861360346938"] = "werewolf_awakened_idle", ["rbxassetid://124379749442847"] = "werewolf_awakened_movement", ["rbxassetid://84062283125987"] = "werewolf_awakened_x_head_loop", ["rbxassetid://95527177942557"] = "werewolf_awakened_x_head_end"
 }
